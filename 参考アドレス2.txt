@@ -17,3 +17,5 @@ http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/
 https://teratail.com/questions/39512
 
 https://ksby.hatenablog.com/entry/2015/01/29/191304
+
+https://qiita.com/nvtomo1029/items/8827d95327b647a6cf50
