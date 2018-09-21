@@ -1,0 +1,5 @@
+https://code.i-harness.com/ja/q/2030b77
+
+https://terasolunaorg.github.io/guideline/public_review/ArchitectureInDetail/Validation.html#id3
+
+http://www.mybatis.org/mybatis-3/ja/sqlmap-xml.html
