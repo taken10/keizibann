@@ -1,0 +1,16 @@
+https://terasolunaorg.github.io/guideline/public_review/ImplementationAtEachLayer/ApplicationLayer.html#controller-mapping-policy-sampleapp-redo-impl-label
+
+https://qiita.com/NariseT/items/172ca093364aa9391989
+
+https://terasolunaorg.github.io/guideline/public_review/ArchitectureInDetail/Validation.html#id3
+
+https://qiita.com/55beagle/items/2a151a167df91d7e4e62
+
+https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1491884104
+
+https://www.tagindex.com/javascript/window/confirm.html
+
+spring ‰æ–Ê‘JˆÚ‚È‚µ ŒfŽ¦”Â
+http://arakan-pgm-ai.hatenablog.com/entry/2017/04/13/194032
+
+http://labs.opentone.co.jp/?p=6144
