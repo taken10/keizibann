@@ -1,0 +1,80 @@
+/**
+ *
+ */
+package com.board.springboot.controller;
+
+import static org.mockito.Mockito.*;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.ModelAndView;
+
+import com.board.springboot.mapper.UserMapper;
+import com.board.springboot.model.Userdata;
+import com.board.springboot.service.UserService;
+
+import junit.framework.TestCase;
+
+/**
+ * @author tsuji.hikaru
+ *
+ */
+public class LoginControllerTest extends TestCase {
+
+
+	/**
+	 * @param name
+	 */
+	public LoginControllerTest(String name) {
+		super(name);
+	}
+
+	/* (非 Javadoc)
+	 * @see junit.framework.TestCase#setUp()
+	 */
+	protected void setUp() throws Exception {
+		super.setUp();
+	}
+	/* (非 Javadoc)
+	 * @see junit.framework.TestCase#tearDown()
+	 */
+	protected void tearDown() throws Exception {
+		super.tearDown();
+	}
+
+	/**
+	 * {@link com.board.springboot.controller.LoginController#index(javax.servlet.http.HttpServletRequest)} のためのテスト・メソッド。
+	 */
+	public void testIndex() {
+		fail("まだ実装されていません");
+	}
+
+	/**
+	 * {@link com.board.springboot.controller.LoginController#login(long, java.lang.String, org.springframework.web.servlet.ModelAndView, javax.servlet.http.HttpServletRequest)} のためのテスト・メソッド。
+	 */
+	public void testLogin() {
+		LoginController loginController = mock(LoginController.class);
+		UserService userService =mock(UserService.class);
+		Userdata userdata =mock(Userdata.class);
+		UserMapper userMapper=mock(UserMapper.class);
+		ModelAndView mav=new ModelAndView();
+		HttpServletRequest request = mock(HttpServletRequest.class);
+		HttpServletResponse response = mock(HttpServletResponse.class);
+		// RequestDispatcherをrdに入れてmock化
+		RequestDispatcher rd = mock(RequestDispatcher.class);
+
+		 // rdのforwardが呼ばれたらnothingを返すっていう設定(whenはvoidメソッド使えない)
+
+
+
+		loginController.login(1,"pass",mav,request);
+
+		fail("まだ実装されていません");
+	}
+
+}
+//http://mochiwaki.hatenablog.com/entry/2014/09/30/100301
+
+http://www.ne.jp/asahi/hishidama/home/tech/java/junit/junit4.html#3.8_4.1
